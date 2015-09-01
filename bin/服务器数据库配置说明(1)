@@ -1,0 +1,23 @@
+第一次运行前，请在mysql终端输入以下语句：
+
+set character_set_client =  gbk;
+set character_set_connection  = gbk;
+set character_set_database = gbk;
+set character_set_filesystem = gbk;
+set character_set_results = gbk;
+set character_set_server = gbk;
+
+create database software_meeting;
+use software_meeting;
+
+create table user(
+	id varchar(20) not null primary key,
+	name varchar(20),
+	password varchar(20)
+)DEFAULT CHARSET=gbk;
+
+insert into user(id,name,password)values("u1","元首","123");
+insert into user(id,name,password)values("u2","斯大林","123");
+insert into user(id,name,password)values("u3","比利海灵顿","123");
+insert into user(id,name,password)values("u4","德国boy","123");
+insert into user(id,name,password)values("u5","爱丽斯菲尔","123");

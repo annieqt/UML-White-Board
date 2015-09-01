@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="UnitTest"/>
+	<classpathentry exported="true" kind="lib" path="lib/mysql-connector-java.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JTattoo.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/batik-awt-util-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/batik-svggen-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/batik-util-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/customizer.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JMF2.1.1e/lib/customizer.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JMF2.1.1e/lib/jmf.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JMF2.1.1e/lib/mediaplayer.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JMF2.1.1e/lib/multiplayer.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JMF2.1.1e/lib/sound.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
